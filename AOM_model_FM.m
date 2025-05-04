@@ -9,11 +9,11 @@ format compact
 % Zeit in µs, Frequenz in MHz
 % Modell: Träger ist phasenmoduliert (FM) mit diversen Tönen
 
-dt=1e-3; % sampling interval
+dt=1e-3; % Sampling interval
 L=1e5; % Zahl der sampling Punkte
 t=(0:(L-1))*dt; % Zeitachse
-fs=1/dt; % sampling Frequenz = 2 * höchste Frequenz
-df=fs/L; % Frequenzauflösung = sampling Frequenz / L
+fs=1/dt; % sampling Frequenz = 2 * höchste Frequenz / samples per second (MHz)
+df=fs/L; % Frequenzauflösung = sampling Frequenz (MHz)
 f=(0:L/2-1)*df;
 
 f0=100; % Trägerfrequenz 
