@@ -5,12 +5,10 @@ description = ""
 authors = [
     {name = "Leo Forster",email = "LeoForster@t-online.de"}
 ]
-readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "notebook (>=7.4.3,<8.0.0)"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
