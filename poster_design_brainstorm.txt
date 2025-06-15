@@ -1,0 +1,26 @@
+Title + Include your names, affiliations, supervisor, and project donor.
+Introduction (What do we actually want to do)
+Motivation: 
+- Why is controlling the AOM output spectrum important?
+- What challenges arise due to the nonlinear and complex input-output relationship?
+- Mention relevance to quantum optics or real-time feedback control.
+- Real-Life Application / Show System Overview Diagram
+- > Experimental Setup (Laser → AOM → Beam Splitter → Photodetectors): Show how heterodyne measurement is used; Explain constant laser input frequency and continuous monitoring.
+Objective (How do we do what we want)
+Visualize data processing steps (How we get training data)
+Model Architecture:
+- Brief summary or diagram (e.g., MLP, CNN, etc.)
+- What makes the model suitable for nonlinear mappings?
+- Performance metrics or comparison between models.
+Results
+- Example input/output spectra from model
+- Comparison of predicted vs. actual AOM spectra
+- Error metrics, learning curve, etc.
+Conclusion (Summary of findings)
+
+Poster Tips:
+-Use big, readable fonts. Main text ~24 pt; headings ≥36 pt.
+- Minimize text blocks. Favor bullet points and visual aids.
+- Make plots clear. Ensure axis labels and legends are legible.
+- Use color wisely. Keep it consistent with your key figure’s real/imag color scheme (e.g., blue/orange).
+- Tell a story. Guide the viewer from motivation to method to results.
